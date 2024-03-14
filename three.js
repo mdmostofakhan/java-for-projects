@@ -54,11 +54,10 @@ form.addEventListener("submit", function(e){
 
 // clock star here .................../
 
-
 const clock = document.getElementById("clock")
-setInterval(function(){
-    const date = new Date()
-    // console.log(date.toLocaleTimeString())
-    clock.innerHTML = date.toLocaleTimeString();
-}, 1000)
 
+setInterval(function(){
+    const date = new Date();
+    clock.innerHTML = date.toLocaleTimeString()
+
+}, 1000)
