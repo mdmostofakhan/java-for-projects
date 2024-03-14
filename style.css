@@ -207,3 +207,7 @@ p {
   width: 180px;
   border-radius: 10px;
 }
+
+ .resultPares p{
+  color: white;
+}
